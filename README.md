@@ -1,18 +1,18 @@
-# **Hackathon. Packer for Yandex Market.**
+# **Хакатон. Упаковщик для Яндекс Маркета.**
 
-## **Data:**
-Data on orders indicating the number of goods, their cargo type (product type), the container in which the goods were packed by the assembler. There are prices and sizes of containers.
+## **Данные:**
+Данные о заказах с указанием количества товаров, их вида груза (типа товара), тары, в которую товар был упакован сборщиком. Есть цены и размеры контейнеров.
 
-## **Task**
-Build a model that will predict which package (package or box type) an order should be placed in.
+## **Задача**
+Создайте модель, которая будет предсказывать, в какой упаковке (типе упаковки или коробки) должен быть размещен заказ.
 
-## **Work done**
-- Analyzed and prepared data,
-- Trained the model, evaluated the quality of the created model,
-- Finalized the ML product for development, implemented the assembly.
+## **Работа выполнена**
+- Проанализированы и подготовлены данные,
+- Обучил модель, оценил качество созданной модели,
+- Доработан продукт ML для разработки, реализована сборка.
 
-## **Libraries Used**
+## **Используемые библиотеки**
 pandas, numpy, matplotlib, seaborn, sklearn, catboost, phik, xgboost, lightgbm
 
-## **Project status**
-Finished
+## **Статус проекта**
+Законченный
