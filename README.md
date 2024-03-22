@@ -1,50 +1,50 @@
-# **Хакатон. Упаковщик для Яндекс Маркета.**
+# **Hackathon. Packer for Yandex Market.**
 
-## Введение
+## Introduction
 
-Проект был начат во время хакатона и фокусируется на логистической проблеме, с которой сталкивается Яндекс Маркет. Он направлен на эффективную упаковку заказов в соответствующие коробки, учитывая количество товаров, тип груза и характеристики коробки, такие как цены и размеры.
+The project was started during a hackathon and focuses on the logistics problem faced by Yandex Market. It aims to efficiently pack orders into appropriate boxes, taking into account the number of items, type of cargo, and box characteristics such as prices and sizes.
 
-## Данные:
+## Data:
 
-- **Информация о заказах**: Данные о заказах с указанием количества товаров, их типа груза (тип продукта), коробки, в которой товары были упакованы сборщиком.
-- **Характеристики контейнеров**: Есть цены и размеры коробок.
+- **Order information**: Order information indicating the quantity of goods, their type of cargo (product type), the box in which the goods were packed by the collector.
+- **Characteristics of containers**: There are prices and sizes of boxes.
 
-## Подготовка данных:
-- **Очистка**: Удалены все несоответствия и пропущенные значения.
-- **Инжиниринг признаков**: Извлечены соответствующие характеристики для прогнозирования упаковки.
-- **Исследовательский анализ данных (EDA)**: Проведен анализ для понимания основных закономерностей и распределений.
+## Data preparation:
+- **Cleanup**: Removed all inconsistencies and missing values.
+- **Feature Engineering**: Extracted relevant features for packaging prediction.
+- **Exploratory Data Analysis (EDA)**: Conducted analysis to understand underlying patterns and distributions.
 
-## Задача
+## Task
 
-Построить модель, которая будет предсказывать, в какую упаковку (тип упаковки или коробки) следует разместить заказ.
+Build a model that will predict which packaging (type of package or box) an order should be placed in.
 
-## Выполненная работа
+## Completed work
 
-- Проанализировали и подготовили данные,
-- Обучили модель, оценили качество созданной модели,
-- Завершили ML-продукт для разработки, реализовали сборку в Docker.
+- Analyzed and prepared data,
+- Trained the model, assessed the quality of the created model,
+- Completed the ML product for development, implemented the build in Docker.
 
-## Используемые библиотеки
+## Libraries used
 
 pandas, numpy, matplotlib, seaborn, sklearn, catboost, xgboost, lightgbm
 
-## Результаты
+## Results
 
-- Разработанная модель показала обнадеживающие результаты в предсказании подходящей упаковки для различных заказов.
-- Способствовала лучшему использованию пространства, экономической эффективности и оптимизации упаковочного процесса.
+- The developed model showed encouraging results in predicting suitable packaging for various orders.
+- Contributed to better space utilization, cost efficiency and optimization of the packaging process.
 
-## Проблемы и выводы
+## Problems and conclusions
 
-Описаны проблемы, с которыми столкнулись в проекте, и выводы, полученные при их преодолении.
+The problems encountered in the project and the conclusions obtained in overcoming them are described.
 
-## Статус проекта
+## Project status
 
-**Завершено** - Проект завершен, и модель успешно передана в Яндекс Маркет для анализа.
+**Completed** - The project is completed and the model has been successfully transferred to Yandex Market for analysis.
 
-## Дальнейшая работа
+## Further work
 
-Потенциальные области для дальнейших исследований и разработки, улучшение производительности модели или расширение ее применения в других связанных областях в организации.
+Potential areas for further research and development, improving the performance of the model or expanding its application to other related areas in the organization.
 
-## Благодарности
+## Acknowledgments
 
-Отдельное спасибо команде, наставникам и организаторам хакатона, поддержка и руководство которых были неоценимы в успешном завершении этого проекта.
+Special thanks to the team, mentors and hackathon organizers, whose support and guidance were invaluable in the successful completion of this project.
